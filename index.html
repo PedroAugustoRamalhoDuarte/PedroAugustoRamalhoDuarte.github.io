@@ -15,6 +15,20 @@
     <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/Team-Clean.css">
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/translate.js"></script>
+    <!-- Script para site em duas linguages-->
+    <script type="text/javascript">
+        $(function(){
+            $('.translate').click(function () {
+                const lang = $(this).attr('id');
+
+                $('.lang').each(function (index, element) {
+                    $(this).text(arrLang[lang][$(this).attr('key')]);
+                })
+            })
+        });
+    </script>
 </head>
 
 <body>
@@ -29,6 +43,12 @@
                         <form class="form-inline mr-auto" target="_self">
                             <div class="form-group"><label for="search-field"></label></div>
                         </form>
+
+                        <form class="form-inline">
+                            <button class="translate" id="en">English</button>
+                            <button class="translate" id="br">Brazil</button>
+                        </form>
+
                         <ul class="nav navbar-nav">
                             <li class="nav-item" role="presentation"><a class="nav-link active" href="#ocupations">Ocupations</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" href="#projects">Project</a></li>
@@ -49,7 +69,7 @@
     <div id="ocupations" class="team-clean">
         <div class="container">
             <div class="intro">
-                <h2 class="text-center">My Current Ocupations</h2>
+                <h2 class="lang text-center" key="ocupation">My Current Ocupations</h2>
                 <p class="text-center">Some company that i belive that can help me to improve, and have given the oportunity to improve them</p>
             </div>
             <div class="row people">
@@ -179,7 +199,7 @@
         </footer>
     </div>
     <div></div>
-    <script src="assets/js/jquery.min.js"></script>
+
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-animation.js"></script>
 </body>
