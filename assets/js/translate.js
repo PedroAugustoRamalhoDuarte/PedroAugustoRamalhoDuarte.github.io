@@ -47,11 +47,12 @@ var arrLang = {
         'project1' : 'Um bonito website construido pela SwitchDreams to Centro Academico de Direito - UnB',
         'project2' : 'Um sistema desenvolvido em conjunto com o professor Edil, para melhorar o fluxo de matéria de todos os cursos da Unb',
         'project3' : 'Um sistema web para ajudar na dieta das pessoas, principalmente com deficiências renais',
+        'project4' : 'Uma rede social, desenvolvida para o programa de mentoria de enfermagem na UnB. A plataforma consta com sistema de webchat, vídeo conferência, reuniões, calendários',
         //-- Programming Skills
         'prog_skills' : 'Programming Skills',
         'prog_skills_brief' : 'Alguma de minhas habilidades em programação/desenvolvimento',
         'ps1' : 'Sites e Sistemas Web',
-        'ps1_brief' : 'Conhecimento e experiência em Rails e Django',
+        'ps1_brief' : 'Conhecimento e experiência em Rails, Django e Node/React',
         'ps2' : 'Ciência de Dados',
         'ps2_brief' : 'Projetos de estudos de dados da pós-graduação brasileira na disciplina DataScience for All na UnB',
         'ps3' : 'Processamento de Imagem e redes neurais',
