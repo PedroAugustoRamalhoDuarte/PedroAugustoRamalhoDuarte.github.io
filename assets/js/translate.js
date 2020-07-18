@@ -9,6 +9,8 @@ var arrLang = {
         'oc2_brief' : 'Struct is the junior company of Computer Engineering - UnB, that only student can take a part in. I join in this company in april of 2019',
         'oc3' : 'co-funder',
         'oc3_brief' : 'SwitchDreams is an company created by me and more three college friends. With the slogan: "switch dreams to a bigger one", we try with technology, accomplish people dreams to they can invent a bigger one',
+        'oc4' : 'CS-GO PLAYER',
+        'oc4_brief' : 'GreenOwls is the e-sport team of UnB, and i take part in, as csgo player, in the first semester of 2020 as hobby',
         //-- Projetos
         'projects' : 'Projects',
         'projects_brief' : 'Some of my work and person projects',
@@ -42,6 +44,8 @@ var arrLang = {
         'oc2_brief' : 'Struct é a empresa júnior do meu curso. Eu entrei nela no segundo semestre de 2019 e até agora está sendo uma experiência extraordinária e que agrega bastante conhecimento',
         'oc3' : 'Co-fundador',
         'oc3_brief' : 'SwitchDreams é a minha empresa de coração, junto com mais 3 amigos, temos o sonho de torna-la grande e enquanto isso realizar o sonho dos clientes. A empresa é voltada em soluções tecnologicas em todos os ramos, porém até hoje fizemos projetos somente em desenvolvimento web',
+        'oc4' : 'CS-GO PLAYER',
+        'oc4_brief' : 'GreenOwls é o time de e-sport da UnB. Entrei no time de csgo no primeiro semestre de 2020 e me apaixono cada dia mais pelo cenário de e-sport',
         //-- Projetos
         'projects' : 'Projetos',
         'projects_brief' : 'Algum dos meus projetos pessoais ou do trabalho',
