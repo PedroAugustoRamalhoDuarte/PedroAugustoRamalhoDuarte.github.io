@@ -15,6 +15,7 @@ var arrLang = {
         'project1' : 'An Beatiful website made with SwitchDreams to Centro Academico de Direito - UnB',
         'project2' : 'A web system that track your food taxes in special for people that have renal failure (In developement)',
         'project3' : 'An web system to analise the subject data from University of Brasilia(UnB), to improve subjects flow in every course',
+        'project4' : 'A complete social networking of mentoring, made to MentoriaEnf UnB.In this website there are a lot of functionalities: webchat, videoconference, blog, meetings, callendars.',
         //-- Programming Skills
         'prog_skills' : 'Programming Skills',
         'prog_skills_brief' : 'Some of my programming skills',
@@ -45,8 +46,8 @@ var arrLang = {
         'projects' : 'Projetos',
         'projects_brief' : 'Algum dos meus projetos pessoais ou do trabalho',
         'project1' : 'Um bonito website construido pela SwitchDreams to Centro Academico de Direito - UnB',
-        'project2' : 'Um sistema desenvolvido em conjunto com o professor Edil, para melhorar o fluxo de matéria de todos os cursos da Unb',
-        'project3' : 'Um sistema web para ajudar na dieta das pessoas, principalmente com deficiências renais',
+        'project2' : 'Um sistema web para ajudar na dieta das pessoas, principalmente com deficiências renais',
+        'project3' : 'Um sistema desenvolvido em conjunto com o professor Edil, para melhorar o fluxo de matéria de todos os cursos da Unb',
         'project4' : 'Uma rede social, desenvolvida para o programa de mentoria de enfermagem na UnB. A plataforma consta com sistema de webchat, vídeo conferência, reuniões, calendários',
         //-- Programming Skills
         'prog_skills' : 'Programming Skills',
