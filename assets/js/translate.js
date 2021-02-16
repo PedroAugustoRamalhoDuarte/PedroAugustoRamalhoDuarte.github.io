@@ -4,9 +4,9 @@ let arrLang = {
     'ocupation': 'My Current Ocupations',
     'ocupations_brief': 'Some company that i belive that can help me to improve, and have given the oportunity to improve them',
     'oc1': 'co-funder',
-    'oc1_brief': 'SwitchDreams is a tech startup from Brasília',
+    'oc1_brief': 'SwitchDreams is a tech startup from Brasília, with the main goal enhance the dreams of its customers',
     'oc2': 'Developer',
-    'oc2_brief': 'Step is a brazilian fintech, with main goal to creates a habit of investing in Brazil',
+    'oc2_brief': 'Step is a brazilian fintech, with the objective of creating the Brazilian habit of investing',
     //-- Projetos
     'projects': 'Projects',
     'projects_brief': 'Some of my work and person projects',
@@ -35,7 +35,7 @@ let arrLang = {
     'ocupation': 'Minhas Atuais Ocupações',
     'ocupations_brief': 'Cargos que eu exerço com muito orgulho e determinação.',
     'oc1': 'Co-fundador',
-    'oc1_brief': 'SwitchDreams é a minha empresa de coração, junto com mais 3 amigos, temos o sonho de torna-la grande e enquanto isso realizar o sonho dos clientes. A empresa é voltada em soluções tecnologicas em todos os ramos, porém até hoje fizemos projetos somente em desenvolvimento web',
+    'oc1_brief': 'SwitchDreams é uma startup brasiliense com o objetivo de potencializar os sonhos de seus clientes',
     'oc2': 'Desenvolvedor',
     'oc2_brief': 'Step é uma fintech com o objetivo de criar o hábito de investir dos brasileiros',
     //-- Projetos
