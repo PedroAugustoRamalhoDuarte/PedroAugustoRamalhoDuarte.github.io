@@ -2,230 +2,252 @@
 <html>
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163393566-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163393566-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        gtag('config', 'UA-163393566-1');
-    </script>
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- SEO TAGS-->
-    <meta name="keywords" content="Pedro Augusto, duepe, follur, UnB, Pedro Augusto Ramalho Duarte">
-    <meta name="description" content="Site pessoal do Pedro Augusto Ramalho Duarte">
-    <meta name="robots" content="index,follow">
-    <meta name="subject" content="Pedro Augusto Ramalho Duarte">
-    <meta name="author" content="Pedro Augusto Ramalho Duarte">
-    <meta name="owner" content="Pedro Augusto Ramalho Duarte">
-    <!-- END SEO TAGS-->
-    <title>Pedro Augusto</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/Features-Boxed.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
-    <link rel="stylesheet" href="assets/css/Header-Dark.css">
-    <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/Team-Clean.css">
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/translate.js"></script>
-    <!-- Script para site em duas linguages-->
-    <script type="text/javascript">
-        $(function(){
-            $('.translate').click(function () {
-                const lang = $(this).attr('id');
+    function gtag() {
+      dataLayer.push(arguments);
+    }
 
-                $('.lang').each(function (index, element) {
-                    $(this).text(arrLang[lang][$(this).attr('key')]);
-                })
-            })
-        });
-    </script>
+    gtag('js', new Date());
+
+    gtag('config', 'UA-163393566-1');
+  </script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <!-- SEO TAGS-->
+  <meta name="keywords" content="Pedro Augusto, duepe, follur, UnB, Pedro Augusto Ramalho Duarte">
+  <meta name="description" content="Site pessoal do Pedro Augusto Ramalho Duarte">
+  <meta name="robots" content="index,follow">
+  <meta name="subject" content="Pedro Augusto Ramalho Duarte">
+  <meta name="author" content="Pedro Augusto Ramalho Duarte">
+  <meta name="owner" content="Pedro Augusto Ramalho Duarte">
+  <!-- END SEO TAGS-->
+  <title>Pedro Augusto</title>
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700">
+  <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+  <link rel="stylesheet" href="assets/css/Features-Boxed.css">
+  <link rel="stylesheet" href="assets/css/Footer-Dark.css">
+  <link rel="stylesheet" href="assets/css/Header-Dark.css">
+  <link rel="stylesheet" href="assets/css/Projects-Horizontal.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/Team-Clean.css">
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/translate.js"></script>
+  <!-- Script para site em duas linguages-->
+  <script type="text/javascript">
+    $(function () {
+      $('.translate').click(function () {
+        const lang = $(this).attr('id');
+
+        $('.lang').each(function (index, element) {
+          $(this).text(arrLang[lang][$(this).attr('key')]);
+        })
+      })
+    });
+  </script>
 </head>
 
 <body>
-    <div>
-        <div class="header-dark">
-            <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
-                <div class="container"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navcol-1">
-                        <form class="form-inline mr-auto" target="_self">
-                            <div class="form-group"></div>
-                        </form>
+<div>
+  <div class="header-dark">
+    <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+      <div class="container">
+        <button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <form class="form-inline mr-auto" target="_self">
+            <div class="form-group"></div>
+          </form>
 
-                        <ul class="nav navbar-nav">
-                            <button class="btn btn-primary-outline nav-link translate" id="en"><img src="assets/img/united-states-of-america-flag-icon-32.png" alt="Bandeira do Brasil"></button>
-                            <button class="btn btn-primary-outline nav-link translate" id="br"><img src="assets/img/brazil-flag-icon-32.png" alt="Bandeira USA"></button>
-                            <li class="nav-item" role="presentation"><a class="nav-link active" href="#ocupations">Ocupations</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#projects">Project</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link" href="#skills">Skills</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <div class="container hero">
-                <div class="row">
-                    <div class="col-md-8 offset-md-2">
-                        <h1 class="text-center">Pedro Augusto Ramalho Duarte</h1>
-                    </div>
-                </div>
-            </div>
+          <ul class="nav navbar-nav">
+            <button class="btn btn-primary-outline nav-link translate" id="en"><img
+                    src="assets/img/united-states-of-america-flag-icon-32.png" alt="Bandeira do Brasil"></button>
+            <button class="btn btn-primary-outline nav-link translate" id="br"><img
+                    src="assets/img/brazil-flag-icon-32.png" alt="Bandeira USA"></button>
+            <li class="nav-item" role="presentation"><a class="nav-link active" href="#ocupations">Ocupations</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" href="#projects">Project</a></li>
+            <li class="nav-item" role="presentation"><a class="nav-link" href="#skills">Skills</a></li>
+          </ul>
         </div>
-    </div>
-    <div id="ocupations" class="team-clean">
-        <div class="container">
-            <div class="intro">
-                <h2 class="lang text-center" key="ocupation">My Current Ocupations</h2>
-                <p class="lang text-center" key="ocupations_brief">Some company that i belive that can help me to improve, and have given the oportunity to improve them</p>
-            </div>
-            <div class="row people">
-                <div class="col-md-6 col-lg-3 item"><img src="assets/img/logo%20binária.png" alt="Binaria"/>
-                    <h3 class="name">Atlética Binária</h3>
-                    <p class="lang title" key="oc1">Vice president</p>
-                    <p class="lang description" key="oc1_brief">At the first semester of 2019, my course decide to create an a&nbsp;athletic, and im join as sport director to improve my leadership</p>
-                    <div class="social"><a href="https://www.facebook.com/AtleticaBinariaUnB/"><i class="fa fa-facebook-official"></i></a><a href="https://www.instagram.com/binariaunb/"><i class="fa fa-instagram"></i></a></div>
-                </div>
-                <div class="col-md-6 col-lg-3 item"><img class="rounded-circle" src="assets/img/struct_logo.png" alt="Struct Logo">
-                    <h3 class="name">Struct</h3>
-                    <p class="lang title" key="oc2">MEMBER</p>
-                    <p class="lang description" key="oc2_brief">Struct is the junior company of Computer Engineering - UnB, that only student can take a part in. I join in this company in april of 2019</p>
-                    <div class="social"><a href="https://www.facebook.com/StructUnB/"><i class="fa fa-facebook-official"></i></a><a href="http://www.struct.unb.br/"><i class="fa fa-globe"></i></a></div>
-                </div>
-                <div class="col-md-6 col-lg-3 item"><img class="rounded-circle" src="assets/img/sw.png" style="height: 160px;width: 240px;" alt="SwitchDreams">
-                    <h3 class="name">SwitchDreams</h3>
-                    <p class="lang title" key="oc3">CO-FUNDER</p>
-                    <p class="lang description" key="oc3_brief">SwitchDreams is an company created by me and more three college friends. With the slogan: "switch dreams to a bigger one", we try with technology, accomplish people dreams to they can invent a bigger one</p>
-                    <div class="social"><a href="#"><i class="fa fa-globe"></i></a></div>
-                </div>
-                <div class="col-md-6 col-lg-3 item"><img class="rounded-circle" src="assets/img/jobs/greenowls.jpg" style="height: 160px;width: 240px;" alt="SwitchDreams">
-                    <h3 class="name">GreenOwls</h3>
-                    <p class="lang title" key="oc4">CS-GO Player</p>
-                    <p class="lang description" key="oc4_brief">GreenOwls is the e-sport team of UnB, and i take part in, as csgo player, in the first semester of 2020 as hobby</p>
-                    <div class="social"><a href="#"><i class="fa fa-globe"></i></a></div>
-                </div>
-            </div>
+      </div>
+    </nav>
+    <div class="container hero">
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <h1 class="text-center">Pedro Augusto Ramalho Duarte</h1>
         </div>
+      </div>
     </div>
-    <div data-bs-parallax-bg="true" style="height:500px;background-image: url(&quot;assets/img/bump-collaboration-colleagues-1068523.jpg&quot;);background-position:center;background-size:cover;"></div>
-    <div id="projects" class="projects-horizontal">
-        <div class="container">
-            <div class="intro">
-                <h2 class="lang text-center" key="projects">Projects </h2>
-                <p class="lang text-center" key="projects_brief">Some of my work and person projects</p>
-            </div>
-            <div class="row projects">
-                <div class="col-sm-6 item">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/cadirlogo.png" alt="Logo Cadir"></a></div>
-                        <div class="col">
-                            <h3 class="name">CaDir Website</h3>
-                            <p class="lang description" key="project1">An Beatiful website made with SwitchDreams to Centro Academico de Direito - UnB</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 item">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/logo_renal_app.png" alt="Logo renal app"></a></div>
-                        <div class="col">
-                            <h3 class="name">Renal APP</h3>
-                            <p class="lang description" key="project2">A web system that track your food taxes in special for people that have renal failure (In developement)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 item">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/cartola2.jpg" alt="Logo Magicians"></a></div>
-                        <div class="col">
-                            <h3 class="name">Magicians Project</h3>
-                            <p class="lang description" key="project3">An web system to analise the subject data from University of Brasilia(UnB), to improve subjects flow in every course</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 item">
-                    <div class="row">
-                        <div class="col-md-12 col-lg-5"><a href="https://mentoriaenf.unb.br"><img class="img-fluid" src="assets/img/mentoriaenf.png" alt="Logo Mentoriaenf"></a></div>
-                        <div class="col">
-                            <h3 class="name">Mentoria Estudantil em Enfermagem UnB
-                            </h3>
-                            <p class="lang description" key="project4">An complete social networking of mentoring, made to MentoriaEnf UnB.In this website there are a lot of
-                                functionalities: webchat, videoconference, blog, meetings, callendars.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+  </div>
+</div>
+<div id="ocupations" class="team-clean">
+  <div class="container">
+    <div class="intro">
+      <h2 class="lang text-center" key="ocupation">My Current Ocupations</h2>
+      <p class="lang text-center" key="ocupations_brief">Some company that i belive that can help me to improve, and
+        have given the oportunity to improve them</p>
     </div>
-    <div data-bs-parallax-bg="true" style="height:500px;background-image:url(assets/img/connection.jpg);background-position:center;background-size:cover;"></div>
-    <div id="skills" class="features-boxed">
-        <div class="container">
-            <div class="intro">
-                <h2 class="lang text-center" key="prog_skills">Programming Skills</h2>
-                <p class="lang text-center" key="prog_skills_brief">Some of my programming skills</p>
-            </div>
-            <div class="row justify-content-center features">
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box"><i class="fa fa-globe icon"></i>
-                        <h3 class="lang name" key="ps1">WebSites and System</h3>
-                        <p class="lang description" key="ps1_brief">Django is my favorite framework for website construction, but also i make site with Rails</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box"><i class="fa fa-database icon"></i>
-                        <h3 class="lang name" key="ps2">Data Science</h3>
-                        <p class="lang description" key="ps2_brief">Data Science with R, courses made in DataCamp and Discipline DataScience for All in UnB.</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box"><i class="fa fa-cloud icon"></i>
-                        <h3 class="lang name" key="ps3">Neural Network and Image Processing</h3>
-                        <p class="lang description" key="ps3_brief">Neural Network with keras and image processing with open CV both with python</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box"><i class="fa fa-calendar icon"></i>
-                        <h3 class="lang name" key="ps4">Project Management</h3>
-                        <p class="lang description" key="ps4_brief">Kaban , Programming xp and Scrum. with some tools: Trello, Gannt Graph</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box"><i class="fa fa-hdd-o icon"></i>
-                        <h3 class="lang name" key="ps5"><strong>Microcontrollers</strong></h3>
-                        <p class="lang description" key="ps5_brief">Code in Assembly and C for microcontrollers projects, in special MSP430 from texas</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-5 col-lg-4 item">
-                    <div class="box"><i class="fa fa-product-hunt icon"></i>
-                        <h3 class="lang name" key="ps6">Programming Languagues</h3>
-                        <p class="lang description" key="ps6_brief">Python, Java, C, R, Ruby, C++, Assembly, Haskell, JavaScript&nbsp;</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-dark">
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 offset-lg-3 item social">
-                        <a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a>
-                        <a href="https://github.com/PedroAugustoRamalhoDuarte"><i class="icon ion-social-github"></i></a>
-                        <a href="https://gitlab.com/Duepe"><i class="icon ion-social-github"></i></a>
-                    </div>
-                </div>
-                <p class="copyright">Pedro Augusto © 2020</p>
-            </div>
-        </footer>
-    </div>
-    <div></div>
+    <div class="row people">
 
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-animation.js"></script>
+      <div class="col-md-6 col-lg-6 item"><img class="rounded-circle" src="assets/img/jobs/switchdreams.png"
+                                               style="height: 160px;width: 240px;" alt="SwitchDreams">
+        <h3 class="name">SwitchDreams</h3>
+        <p class="lang title" key="oc1">CO-FUNDER</p>
+        <p class="lang description" key="oc1_brief">SwitchDreams is an company created by me and more three college
+          friends. With the slogan: "switch dreams to a bigger one", we try with technology, accomplish people dreams to
+          they can invent a bigger one</p>
+        <div class="social"><a href="#"><i class="fa fa-globe"></i></a></div>
+      </div>
+      <div class="col-md-6 col-lg-6 item"><img class="rounded-circle" src="assets/img/jobs/step.jpeg"
+                                               style="height: 160px;width: 240px;" alt="logo Step">
+        <h3 class="name">Step Brasil</h3>
+        <p class="lang title" key="oc2">Developer</p>
+        <p class="lang description" key="oc2_brief">Step is a brazilian fintech, with main goal to creates a habit of
+          investing in Brazil</p>
+        <div class="social"><a href="https://www.stepbrasil.com.br/"><i class="fa fa-globe"></i></a></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div data-bs-parallax-bg="true"
+     style="height:500px;background-image: url(&quot;assets/img/bump-collaboration-colleagues-1068523.jpg&quot;);background-position:center;background-size:cover;"></div>
+<div id="projects" class="projects-horizontal">
+  <div class="container">
+    <div class="intro">
+      <h2 class="lang text-center" key="projects">Projects </h2>
+      <p class="lang text-center" key="projects_brief">Some of my work and person projects</p>
+    </div>
+    <div class="row projects">
+      <div class="col-sm-6 item">
+        <div class="row">
+          <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/cadirlogo.png"
+                                                           alt="Logo Cadir"></a></div>
+          <div class="col">
+            <h3 class="name">CaDir Website</h3>
+            <p class="lang description" key="project1">An Beatiful website made with SwitchDreams to Centro Academico de
+              Direito - UnB</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 item">
+        <div class="row">
+          <div class="col-md-12 col-lg-5"><a href="https://www.eduqbrasil.com.br/"><img class="img-fluid"
+                                                                                        src="assets/img/projects/eduq_logo.jpeg"
+                                                                                        alt="Logo renal app"></a></div>
+          <div class="col">
+            <h3 class="name">Eduq Brasil</h3>
+            <p class="lang description" key="project2">EduqBrasil is a web educational and pedagogical management
+              platform developed by Struct and now maintained by SwitchDreams</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 item">
+        <div class="row">
+          <div class="col-md-12 col-lg-5"><a href="https://www.cadeomw.com.br/"><img class="img-fluid"
+                                                                                     src="assets/img/cartola2.jpg"
+                                                                                     alt="Logo Magicians"></a></div>
+          <div class="col">
+            <h3 class="name">Cadeomw</h3>
+            <p class="lang description" key="project3">A web system to make UnB student life easier when they are
+              choosing their subjects</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 item">
+        <div class="row">
+          <div class="col-md-12 col-lg-5"><a href="https://mentoriaenf.unb.br"><img class="img-fluid"
+                                                                                    src="assets/img/mentoriaenf.png"
+                                                                                    alt="Logo Mentoriaenf"></a></div>
+          <div class="col">
+            <h3 class="name">Mentoria Estudantil em Enfermagem UnB
+            </h3>
+            <p class="lang description" key="project4">An complete social networking of mentoring, made to MentoriaEnf
+              UnB.In this website there are a lot of
+              functionalities: webchat, videoconference, blog, meetings, callendars.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div data-bs-parallax-bg="true"
+     style="height:500px;background-image:url(assets/img/connection.jpg);background-position:center;background-size:cover;"></div>
+<div id="skills" class="features-boxed">
+  <div class="container">
+    <div class="intro">
+      <h2 class="lang text-center" key="prog_skills">Programming Skills</h2>
+      <p class="lang text-center" key="prog_skills_brief">Some of my programming skills</p>
+    </div>
+    <div class="row justify-content-center features">
+      <div class="col-sm-6 col-md-5 col-lg-4 item">
+        <div class="box"><i class="fa fa-globe icon"></i>
+          <h3 class="lang name" key="ps1">WebSites and System</h3>
+          <p class="lang description" key="ps1_brief">Django is my favorite framework for website construction, but also
+            i make site with Rails</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-5 col-lg-4 item">
+        <div class="box"><i class="fa fa-database icon"></i>
+          <h3 class="lang name" key="ps2">Data Science</h3>
+          <p class="lang description" key="ps2_brief">Data Science with R, courses made in DataCamp and Discipline
+            DataScience for All in UnB.</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-5 col-lg-4 item">
+        <div class="box"><i class="fa fa-cloud icon"></i>
+          <h3 class="lang name" key="ps3">Neural Network and Image Processing</h3>
+          <p class="lang description" key="ps3_brief">Neural Network with keras and image processing with open CV both
+            with python</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-5 col-lg-4 item">
+        <div class="box"><i class="fa fa-calendar icon"></i>
+          <h3 class="lang name" key="ps4">Project Management</h3>
+          <p class="lang description" key="ps4_brief">Kaban , Programming xp and Scrum. with some tools: Trello, Gannt
+            Graph</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-5 col-lg-4 item">
+        <div class="box"><i class="fa fa-hdd-o icon"></i>
+          <h3 class="lang name" key="ps5"><strong>Microcontrollers</strong></h3>
+          <p class="lang description" key="ps5_brief">Code in Assembly and C for microcontrollers projects, in special
+            MSP430 from texas</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-5 col-lg-4 item">
+        <div class="box"><i class="fa fa-product-hunt icon"></i>
+          <h3 class="lang name" key="ps6">Programming Languagues</h3>
+          <p class="lang description" key="ps6_brief">Ruby, Python, JavaScript, Java, C, R, Elixir, C++, Assembly</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer-dark">
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3 item social">
+          <a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a>
+          <a href="https://github.com/PedroAugustoRamalhoDuarte"><i class="icon ion-social-github"></i></a>
+          <a href="https://www.linkedin.com/in/pedro-augusto-ramalho-duarte-1a12b458/"><i
+                  class="icon ion-social-linkedin"></i></a>
+        </div>
+      </div>
+      <p class="copyright">Pedro Augusto © 2020</p>
+    </div>
+  </footer>
+</div>
+<div></div>
+
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/js/bs-animation.js"></script>
 </body>
 
 </html>
